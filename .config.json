@@ -1,0 +1,37 @@
+{
+  "Serv" : {
+    "Token" : "",
+    "Debug" : true
+  },
+  "Log" : {
+    "Dir" : "/var/log/",
+    "File" : "voteBot_log"
+  },
+  "DB" : {
+    "Host" : "dhhost",
+    "Port" : "dbport",
+    "Name" : "dbname",
+    "User" : "dbuser",
+    "Pass" : "dbpass",
+    "SSL" : "enable or disable",
+    "Type" : "dbtype"
+  },
+  "StartMsg" : {
+    "Start" : "Начать голосование",
+    "Command" : "Чтобы начать голосование нажмите на кнопку"
+  },
+  "KbBtnText" : {
+    "Start" : "Начать голосование"
+  },
+  "Vote" : {
+    "Photos" : ["http://path/to/file.png", "http://path/to/file.png", "http://path/to/file.png"],
+    "MimeType" : "image/png",
+    "Category" : "birthday"
+  },
+  "BotMessage" : {
+    "VoteVariantSelect" : "Выберите понравившийся вариант.",
+    "VoteEnd" : "Спасибо! Ваш голос очень важен для нас. Оставайтесь с нами.",
+    "VoteLimit" : "Спасибо! Но вы уже голосовали. Оставайтесь с нами.",
+    "VoteStarted" : "Вы уже начали голосование. Выберите вариант."
+  }
+}
